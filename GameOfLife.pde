@@ -50,9 +50,9 @@ public void draw () {
 
 public void keyPressed() {
   //your code here
-  if (key == 'a' && running == true)
+  if (key == '[' && running == true)
       running = false;
-  if (key == 's' && running == false)
+  if (key == ']' && running == false)
      running = true;  
 }
 
